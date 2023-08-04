@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Ecommerce</title>
+  </head>
+  <body>
+    
+    <div class="offcanvas offcanvas-end" id="demo">
+        <section class="container content-section">
+            <div id="mySidenav" class="sidenav">
+                <a href="" class="closebtn" onclick="location.href='#home'">&times;</a>
+            <h2 class="section-header">Your Cart</h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">₹0</span>
+            </div>
+            <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+        </section>
+      </div>
+      
+
+
+
+
+      <nav class="navbar navbar-inverse fixed-top  navbar-expand-xxl bg-light navbar-light">
+        <div class="container-fluid" id="home">
+         <a href="#" class="navbar-brand">Ecommerce</a>
+         <button
+             type="button"
+             data-bs-toggle="offcanvas"
+             data-bs-target="#demo" 
+             class="btn btn-primary"
+       >
+       <span class="btn-label"><i class="fa fa-shopping-cart" aria-hidden="true"></i></span>
+       
+       </button>
+        </div>
+      </nav>    
+       
+     <section class="product-section" style="padding: 25px;">
+        <div class="container">
+            <div class="heading-container" style="text-align: center;">
+                <h2>Our <span>Products</span></h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="box">
+                        <span class="shop-item-title">Tshirt</span>
+                        <div class="img-box">
+                            <img class="shop-item-image" src="https://rukminim2.flixcart.com/image/832/832/l4zxn680/t-shirt/i/t/o/xl-cap-i-love-one-nb-nicky-boy-original-imagfrrythnsgfy3.jpeg?q=70" alt="Tshirt">
+                        </div>
+                        <div class="detail-box">
+                           
+                            <span class="shop-item-price">₹299</span>
+                        </div>
+                        <div class="option-container"> 
+                           <button type="button" class="btn btn-primary shop-item-button">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="box">
+                        <span class="shop-item-title">Hoodie</span>
+                        <div class="img-box">
+                            <img class="shop-item-image" src="https://rukminim2.flixcart.com/image/416/416/xif0q/t-shirt/z/0/k/l-all-rbcpon-sky-one-nb-nicky-boy-original-imagrdhcgyk7papf.jpeg?q=70" alt="Tshirt">
+                        </div>
+                        <div class="detail-box">
+                          
+                            <span class="shop-item-price">₹699</span>
+                        </div>
+                        <div class="option-container"> 
+                           <button type="button" class="btn btn-primary shop-item-button">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="box">
+                        <span class="shop-item-title">Sunglass</span>
+                        <div class="img-box">
+                            <img class="shop-item-image" src="https://rukminim2.flixcart.com/image/612/612/xif0q/sunglass/r/9/p/-original-imaggarga4mhwyt5.jpeg?q=70" alt="Tshirt">
+                        </div>
+                        <div class="detail-box">
+                            
+                            <span class="shop-item-price">₹999</span>
+                        </div>
+                        <div class="option-container"> 
+                           <button type="button" class="btn btn-primary shop-item-button">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="box">
+                        <span class="shop-item-title">Necklace</span>
+                        <div class="img-box">
+                            <img class="shop-item-image" src="https://rukminim2.flixcart.com/image/612/612/xif0q/jewellery-set/s/i/c/e-na-2-nk46-brado-jewellery-original-imagqye68ajqatws.jpeg?q=70" alt="Tshirt">
+                        </div>
+                        <div class="detail-box">
+                            
+                            <span class="shop-item-price">₹4999</span>
+                        </div>
+                        <div class="option-container"> 
+                           <button type="button" class="btn btn-primary shop-item-button">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="box">
+                        <span class="shop-item-title">LG Smart TV</span>
+                        <div class="img-box">
+                            <img class="shop-item-image" src="https://rukminim2.flixcart.com/image/416/416/l0fm07k0/television/7/x/9/-original-imagc8fnpx39evgc.jpeg?q=70" alt="Tshirt">
+                        </div>
+                        <div class="detail-box">
+                          
+                            <<span class="shop-item-price">₹12999</span>
+                        </div>
+                        <div class="option-container"> 
+                           <button type="button" class="btn btn-primary shop-item-button">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="box">
+                        <span class="shop-item-title">Men's Tshirt</span>
+                        <div class="img-box">
+                            <img class="shop-item-image" src="https://rukminim2.flixcart.com/image/832/832/l12h1u80/shirt/u/h/k/44-600-zartha-original-imagcpnwhfrytdwz.jpeg?q=70" alt="Tshirt">
+                        </div>
+                        <div class="detail-box">
+                            
+                            <span class="shop-item-price">₹499</span>
+                        </div>
+                        <div class="option-container"> 
+                           <button type="button" class="btn btn-primary shop-item-button">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="box">
+                        <span class="shop-item-title">iphone13</span>
+                        <div class="img-box">
+                            <img class="shop-item-image" src="https://rukminim2.flixcart.com/image/312/312/ktketu80/mobile/2/y/o/iphone-13-mlpk3hn-a-apple-original-imag6vpyur6hjngg.jpeg?q=70" alt="Tshirt">
+                        </div>
+                        <div class="detail-box">
+                            
+                            <span class="shop-item-price">₹57999</span>
+                        </div>
+                        <div class="option-container"> 
+                           <button type="button" class="btn btn-primary shop-item-button">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="box">
+                        <span class="shop-item-title">Fastrack</span>
+                        <div class="img-box">
+                            <img class="shop-item-image" src="https://rukminim2.flixcart.com/image/416/416/xif0q/smartwatch/k/h/s/1-83-38083pp01-android-ios-fastrack-yes-original-imagnhzeabmcfspe.jpeg?q=70" alt="Tshirt">
+                        </div>
+                        <div class="detail-box">
+                            
+                            <span class="shop-item-price">₹1299</span>
+                        </div>
+                        <div class="option-container"> 
+                           <button type="button" class="btn btn-primary shop-item-button">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="box">
+                        <span class="shop-item-title">DSLR</span>
+                        <div class="img-box">
+                            <img class="shop-item-image" src="https://rukminim2.flixcart.com/image/416/416/kamtsi80/dslr-camera/v/q/d/x-t4-26-mp-x-t4-fujifilm-original-imafs5jw3dtem9pp.jpeg?q=70" alt="Tshirt">
+                        </div>
+                        <div class="detail-box">
+                            
+                            <span class="shop-item-price">₹145999</span>
+                        </div>
+                        <div class="option-container"> 
+                           <button type="button" class="btn btn-primary shop-item-button ">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    
+  </body>
+</html>
